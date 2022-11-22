@@ -1,6 +1,6 @@
 package main
 
-import "fmt"
+// import "fmt"
 
 func missingNumber(nums []int) int {
 	if len(nums) == 0 {
@@ -26,7 +26,7 @@ func missingNumber(nums []int) int {
 	return max + 1
 }
 
-func main() {
-	a := []int{1, 2, 3, 4};
-	fmt.Println(missingNumber((a)))	
-}
+// func main() {
+// 	a := []int{1, 2, 3, 4};
+// 	fmt.Println(missingNumber((a)))	
+// }
