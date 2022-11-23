@@ -1,6 +1,6 @@
 package main
 
-import "fmt"
+// import "fmt"
 
 func maxProfit(prices []int) int {
 	if len(prices) <= 1 {
@@ -24,7 +24,7 @@ func maxProfit(prices []int) int {
 	return res
 }
 
-func main() {
-	a := []int{7, 1, 5, 0, 6, 4}
-	fmt.Println(maxProfit((a)))
-}
+// func main() {
+// 	a := []int{7, 1, 5, 0, 6, 4}
+// 	fmt.Println(maxProfit((a)))
+// }
