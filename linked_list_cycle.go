@@ -2,14 +2,14 @@ package main
 
 // import "fmt"
 
-type ListNode struct {
-	val int
-	Next *ListNode
-}
+// type ListNode struct {
+// 	val int
+// 	Next *ListNode
+// }
 
-func constructLD(val int) *ListNode {
-	return &ListNode{val: val, Next: nil}
-}
+// func constructLD(val int) *ListNode {
+// 	return &ListNode{val: val, Next: nil}
+// }
 
 func hasCycle(head *ListNode) bool {
     if head == nil || head.Next == nil {
