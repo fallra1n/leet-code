@@ -20,21 +20,26 @@ func search(nums []int, target int) bool {
 			continue
 		}
 
+		// first segment increase
 		if nums[left] <= nums[mid] {
+			// target is included in first segment
 			if target <= nums[mid] && target >= nums[left] {
 				right = mid - 1
 				continue
 			}
 
+			// target is included in second segment
 			left = mid + 1
 			continue
 		}
 
+		// if target is included in second segment && second segment increase
 		if target <= nums[right] && target >= nums[mid] {
 			left = mid + 1
 			continue
 		}
 
+		// if target is included in first segment && second segment increase
 		right = mid - 1
 	}
 
