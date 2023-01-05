@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func TernaryOperator(expr bool, val *int) {
 	if expr == true {
 		*val--
@@ -54,6 +52,6 @@ func findAnagrams(s string, p string) []int {
 	return ans
 }
 
-func main() {
-	fmt.Println(findAnagrams("baa", "aa"))
-}
+//func main() {
+//	fmt.Println(findAnagrams("baa", "aa"))
+//}
