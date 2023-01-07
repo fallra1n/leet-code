@@ -26,7 +26,7 @@ func maxArea(height []int) int {
 	return ans
 }
 
-func main() {
-	height := []int{1, 2, 1}
-	maxArea(height)
-}
+//func main() {
+//	height := []int{1, 2, 1}
+//	maxArea(height)
+//}
