@@ -1,12 +1,12 @@
 package main
 
-func TernaryOperator(expr bool, val *int) {
-	if expr == true {
-		*val--
-	} else {
-		*val++
-	}
-}
+//func TernaryOperator(expr bool, val *int) {
+//	if expr == true {
+//		*val--
+//	} else {
+//		*val++
+//	}
+//}
 
 func findAnagrams(s string, p string) []int {
 	if len(s) < len(p) {
